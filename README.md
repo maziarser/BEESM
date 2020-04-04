@@ -72,7 +72,7 @@ Arduino code and then press 'Upload Code' button.
 ### Authors and Contributors
 Mazyar Seraj (@maziarser). 
 
-Thanks to [Anke Koenigschulte](https://github.com/AKoenigschulte/)from [CPS/DFKI GmbH](https://www-cps.hb.dfki.de/home). 
+Thanks to [Anke Koenigschulte](https://github.com/AKoenigschulte/) from [CPS,DFKI GmbH](https://www-cps.hb.dfki.de/home). 
 
 BEESM developed in the context of project [SMILE](https://www.smile-smart-it.de/) which was 
 funded by the [German Federal Ministry for Education and Research - BMBF](https://www.bmbf.de/en/index.html), grant number 01FP1613.
@@ -86,7 +86,7 @@ Blockly original source is Copyright of Google Inc. [Blockly](https://developers
 In order to highlight the codes, we used [CodeHighlighter](https://highlightjs.org/) and [CodeMirror](https://codemirror.net/).
 
 ### License
-Copyright (c) 2020 Cyber-Physical Systems (CPS), DFKI GmbH and Group of Computer Architecture (AGRA). 
+Copyright (c) 2020 Cyber-Physical Systems (CPS), DFKI GmbH, and Group of Computer Architecture (AGRA). 
 All Rights Reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
