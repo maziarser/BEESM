@@ -1,0 +1,156 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.panelAdmin {
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border-style: solid;
+    border-color: #EF6C00;
+}
+
+.panelAdmin-body {
+    padding: 15px;
+    text-align: center;
+
+}
+.panelAdmin-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color: #2196f3;
+}
+
+.panelAdmin-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    color: inherit;
+}
+.panelAdmin-footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #dddddd;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 1;
+    vertical-align: baseline;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #bbbbbb;
+    border-radius: 10px;
+}
+
+.panel-on {
+    border-color: #d6e9c6;
+}
+.panel-on>.panelAdmin-heading {
+    color: #ffffff;
+    background-color: #4caf50;
+    border-color: #d6e9c6;
+}
+.panel-on>.panelAdmin-heading>.panelAdmin-body {
+    border-top-color: #d6e9c6;
+}
+.panel-on>.panelAdmin-heading .badge {
+    color: #4caf50;
+    background-color: #ffffff;
+}
+.panel-on>.panelAdmin-footer>.panelAdmin-body {
+    border-bottom-color: #d6e9c6;
+}
+
+.panel-off {
+    border-color: #f7a4af;
+}
+.panel-off>.panelAdmin-heading {
+    color: #ffffff;
+    background-color: #e51c23;
+    border-color: #f7a4af;
+}
+.panel-off>.panelAdmin-heading>.panelAdmin-body {
+    border-top-color: #f7a4af;
+}
+.panel-off>.panelAdmin-heading .badge {
+    color: #e51c23;
+    background-color: #ffffff;
+}
+.panel-off>.panelAdmin-footer>.panelAdmin-body {
+    border-bottom-color: #f7a4af;
+}
+
+.btn-admin {
+    background: #212121;
+    background-image: linear-gradient(to bottom, #212121, #212121);
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    border: solid #E0E0E0 2px;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-table;
+}
+.btn-admin:hover {
+    background: #BDBDBD;
+    background-image: linear-gradient(to bottom, #BDBDBD, #BDBDBD);
+    text-decoration: none;
+}
+
+.btn-admin:active {
+    position:relative;
+    top:1px;
+}
+
+.panel-beesm {
+    border-color: #2196f3;
+}
+.panel-beesm>.panelAdmin-heading {
+    color: #ffffff;
+    background-color: #2196f3;
+    border-color: #2196f3;
+}
+.panel-beesm>.panelAdmin-heading>.panelAdmin-body {
+    border-top-color: #2196f3;
+}
+.panel-beesm>.panelAdmin-heading .badge {
+    color: #2196f3;
+    background-color: #ffffff;
+}
+.panel-beesm>.panelAdmin-footer>.panelAdmin-body {
+    border-bottom-color: #2196f3;
+}
+
+input[type=checkbox]
+{
+    -ms-transform: scale(2);
+    -moz-transform: scale(2);
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    padding: 10px;
+    margin: 10px;
+}
+
+.checkboxtext
+{
+    font-size: 110%;
+    display: inline;
+}

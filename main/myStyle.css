@@ -1,0 +1,476 @@
+/*This is to design the Frontend*/
+#body_main {
+    background-color: #FBFBFB;
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+#main {
+    max-width: 1850px;
+    min-height: 1050px;
+    margin: 0px auto;
+}
+#header {
+    color: #0a0a0a;
+    font-size: 20px;
+    padding: 10px 0px;
+    text-decoration: none;
+    height: 35px;
+    max-width: 1820px;
+    margin-bottom: 0px;
+}
+#leftHeader {
+    color: #0a0a0a;
+    padding: 0px;
+    text-decoration: none;
+    height: 30px;
+    width: 895px;
+    margin-bottom: 0px;
+    float: left;
+    display: inline;
+}
+#rightHeader {
+    color: #0a0a0a;
+    padding: 0px;
+    text-decoration: none;
+    height: 30px;
+    width: 895px;
+    margin-bottom: 0px;
+    float: right;
+    display: inline;
+}
+h1 {
+    font-weight: normal;
+    font-size: 160%;
+    margin: 0px 0px;
+    padding-top: 0px;
+}
+h4 {
+    padding: 0px;
+    margin-bottom: -15px;
+    margin-top: 0px;
+}
+#leftDiv {
+    min-height: 1000px;
+    width: 905px;
+    margin-right: 0px;
+    float: left;
+    display: inline;
+    margin-bottom: 10px;
+}
+#blocklyDiv {
+    height: 630px;
+    width: 895px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.codeStyleLeft {
+    height: 330px;
+    width: 895px;
+    padding: 3px;
+    margin-bottom: 0px;
+}
+#xmlH4 {
+	display: none;
+}
+#xmlCode {
+    border: 1px solid #EAE9E9;
+    width: 903px;
+    resize: none;
+    padding: 0px;
+    height: 375px;
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+	display: none;
+}
+#xmlBtn {
+    padding: 0px;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+#btnsTable {
+    width: 895px;
+}
+.btnsTr {
+    height: 40px;
+}
+.btnsTd {
+	
+} 
+#output {
+    border: 1px solid #EAE9E9;
+    font-weight: normal;
+    font-size: 16px;
+    width: 888px;
+    white-space: pre-wrap;
+    font-family: "Courier New", monospace;
+    height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 3px;
+}
+#loader {
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid blue;
+    border-right: 6px solid green;
+    border-bottom: 6px solid red;
+    border-left: 6px solid yellow;
+    width: 10px;
+    height: 10px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+#rightDiv {
+    position: relative;
+    min-height: 1000px;
+    width: 915px;
+    float: left;
+    display: inline;
+    margin-bottom: 0px;
+}
+.codeBtn {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 14px;
+    max-height: 50px;
+	max-width: 905px;
+}
+.codeStyleRight {
+    min-height: 410px;
+    min-width: 905px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+#phpCode {
+    border: 1px solid #EAE9E9;
+    font-weight: normal;
+    font-size: 16px;
+    width: 900px;
+    white-space: pre-wrap;
+    font-family: "Courier New", monospace;
+    height: 380px;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: #F0F0F0;
+    padding: 3px;
+}
+#arduCode {
+    border: 1px solid #EAE9E9;
+    font-weight: normal;
+    font-size: 16px;
+    width: 900px;
+    white-space: pre-wrap;
+    font-family: "Courier New", monospace;
+    height: 380px;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: #F0F0F0;
+    padding: 3px;
+}
+#rosCode {
+    border: 1px solid #EAE9E9;
+    font-weight: normal;
+    font-size: 16px;
+    width: 900px;
+    white-space: pre-wrap;
+    font-family: "Courier New", monospace;
+    height: 380px;
+    overflow: scroll;
+    overflow-x: hidden;
+    background: #F0F0F0;
+    padding: 3px;
+}
+#modifier {
+    position: absolute;
+    top: 40px;
+    right: 7px;
+    display: none;
+}
+#modifyCode {
+    border: 1px solid #EAE9E9;
+    width: 900px;
+    resize: none;
+    padding: 3px;
+    height: 380px;
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+    display: none;
+}
+#modifyCodeDiv {
+    border: 1px solid #EAE9E9;
+    background: #FFFFFF;
+    width: 900px;
+    resize: none;
+    padding: 3px;
+    height: 380px;
+    font-size: 18px;
+    /*background: #F0F0F0;*/
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap;
+}
+#baall {
+    border: 1px solid #EAE9E9;
+    width: 900px;
+    height: 470px;
+    padding: 3px;
+}
+#designBaall {
+    border: 1px solid #EAE9E9;
+    width: 900px;
+    height: 470px;
+    padding: 3px;
+}
+.btn_lan {
+    background: #607D8B;
+    background-image: linear-gradient(to bottom, #607D8B, #455A64);
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+.btn_lan:hover {
+    background: #90A4AE;
+    background-image: linear-gradient(to bottom, #90A4AE, #90A4AE);
+    text-decoration: none;
+}
+.btn_task {
+    background: #757575;
+    background-image: linear-gradient(to bottom, #757575, #424242);
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+.btn_task:hover {
+    background: #BDBDBD;
+    background-image: linear-gradient(to bottom, #BDBDBD, #BDBDBD);
+    text-decoration: none;
+}
+.btn_task:focus {
+    background: #BF360C;
+    background-image: linear-gradient(to bottom, #BF360C, #BF360C);
+    text-decoration: none;
+}
+.btn_tabs {
+    background: #607D8B;
+    background-image: linear-gradient(to bottom, #607D8B, #455A64);
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+.btn_tabs:hover {
+    background: #90A4AE;
+    background-image: linear-gradient(to bottom, #90A4AE, #90A4AE);
+    text-decoration: none;
+}
+.btn {
+    background: #303F9F;
+    background-image: linear-gradient(to bottom, #303F9F, #303F9F);
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #3F51B5;
+    background-image: linear-gradient(to bottom, #3F51B5, #3F51B5);
+    text-decoration: none;
+}
+#run {
+    background: #DD2C00;
+    background-image: linear-gradient(to bottom, #DD2C00, #DD2C00);
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+#run:hover {
+    background: #FF3D00;
+    background-image: linear-gradient(to bottom, #FF3D00, #FF3D00);
+    text-decoration: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    height: 100%;
+}
+td {
+    padding: 0px;
+}
+tr {
+    page-break-inside: avoid;
+}
+.wall {
+    background-color: #000000;
+}
+.bed {
+    background-color: #8C9EFF;
+}
+.fridge {
+    background-color: #CFD8DC;
+}
+.light {
+    background-color: #E65100;
+}
+.light-off {
+    background-color: #FFE0B2;
+}
+.door {
+    background-color: #4A148C;
+}
+.door-open {
+    background-color: #E1BEE7;
+}
+.rgbLight {
+    background-color: #0D47A1;
+}
+.rgbLight-off {
+    background-color: #BBDEFB;
+}
+.dimmer {
+    background-color: #1B5E20;
+}
+.dimmer-off {
+    background-color: #C8E6C9;
+}
+.tv {
+    background-color: #006064;
+}
+.tv-off {
+    background-color: #B2EBF2;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------*/
+@media (max-height: 1400px) {
+    #main {
+        max-width: 1850px;
+        min-height: 1000px;
+    }
+    #header {
+        font-size: 15px;
+        padding: 5px 0px;
+        max-height: 35px;
+        max-width: 1830px;
+    }
+    #rightHeader {
+        float: left;
+        display: inline;
+    }
+    #leftHeader {
+        float: left;
+        display: inline;
+    }
+}
+/*-------------------------------------------------------------------------------------------------------*/
+/*This is to design the Frontend for Smaller Screens*/
+@media (max-height: 1080px) {
+    #main {
+        max-width: 1850px;
+        min-height: 1000px;
+    }
+    #header {
+        font-size: 15px;
+        padding: 5px 0px;
+        max-height: 35px;
+        max-width: 1830px;
+    }
+    #rightHeader {
+        float: left;
+        display: inline;
+    }
+    #leftHeader {
+        float: left;
+        display: inline;
+    }
+    h4 {
+        font-size: 90%;
+    }
+    #leftDiv {
+        min-height: 750px;
+        margin-bottom: 10px;
+    }
+    #blocklyDiv {
+        height: 580px;
+    }
+    .codeStyleLeft {
+        margin-bottom: 0px;
+        max-height: 305px;
+    }
+    #xmlH4 {
+        display: none;
+    }
+    #xmlCode {
+        height: 260px;
+        font-size: 16px;
+        display: none;
+    }
+    #xmlBtn {
+        margin-top: -30px;
+        margin-bottom: -2px;
+    }
+    #output {
+        font-size: 16px;
+        height: 280px;
+    }
+    #rightDiv {
+        min-height: 750px;
+        margin-bottom: 0px;
+    }
+    .codeBtn {
+        margin-bottom: 5px;
+        max-height: 40px;
+    }
+    .codeStyleRight {
+        margin-bottom: 10px;
+        min-height: 360px;
+    }
+    #phpCode {
+        font-size: 16px;
+        height: 330px;
+    }
+    #arduCode {
+        font-size: 16px;
+        height: 330px;
+    }
+    #rosCode {
+        font-size: 16px;
+        height: 330px;
+    }
+    #modifier {
+        position: absolute;
+        top: 43px;
+        right: 7px;
+        display: none;
+    }
+    #modifyCode {
+        height: 330px;
+        font-size: 16px;
+        display: none;
+    }
+    #modifyCodeDiv {
+        height: 330px;
+        font-size: 16px;
+    }
+    #baall {
+        height: 450px;
+    }
+    #designBaall {
+        height: 450px;
+    }
+}
+
