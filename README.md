@@ -79,7 +79,7 @@ funded by the [German Federal Ministry for Education and Research - BMBF](https:
 
 ### Credit
 BEESM has been inspired by [BlocklyDuino](https://github.com/BlocklyDuino/BlocklyDuino) and 
-[robot_blockly](https://github.com/erlerobot/robot_blockly). 
+[CodeIt!](https://github.com/hcrlab/code_it). 
 
 Blockly original source is Copyright of Google Inc. [Blockly](https://developers.google.com/blockly/).
 
@@ -94,5 +94,9 @@ you may not use this file except in compliance with the License.
 You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0.
 
 The full document can be found in the LICENSE files.
+
+### Scientific Publications
+1. [BEESM, a Block-based Educational Programming Tool for End Users](https://dl.acm.org/doi/abs/10.1145/3240167.3240239). Proceedings of the 10th Nordic Conference on Human-Computer Interaction (NordiCHI), 2018.
+2. [Smart Homes Programming: Development and Evaluation of an Educational Programming Application for Young Learners](https://dl.acm.org/doi/abs/10.1145/3311927.3323157). Proceedings of the 18th ACM International Conference on Interaction Design and Children (IDC), 2019.
 
 
